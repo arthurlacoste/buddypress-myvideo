@@ -1,0 +1,91 @@
+
+/* activity & groups page */
+.bp-myvideo-button {
+	background: url(img/icone-video-long.gif) no-repeat;
+	text-indent: 20px;
+	text-align: right;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 2px;
+    padding-top: 2px;	
+	width: 50px;
+    padding-right: 2px;
+	z-index: 2;
+	font-size: 10px;
+}
+
+.bp-myvideo-button :hover { 	
+	cursor: pointer; 
+}
+
+.bp-myvideo-button-moyen {
+	text-align: right;
+	position : absolute;
+	margin-left: 33px;
+	margin-top: 65px;
+	z-index: 2;
+}
+
+.bp-myvideo-button-moyen :hover { 	
+	cursor: pointer; 
+}
+
+.bp-myvideo-button-mini {
+	position : absolute;
+	margin-top: 14px;
+	margin-left: 16px;
+	z-index: 2;
+}
+
+/* profile page */
+.bp-myvideo-button-profile {
+	background: url(img/icone-video-long.gif) no-repeat;
+	text-indent: 20px;
+	position : absolute;
+	margin-top: 155px;
+	margin-left: -170px;
+	z-index: 2;
+    padding-top: 2px;	
+    padding-right: 30px;
+}
+
+/* members directory */
+.bp-myvideo-button-directory {	
+	background: url(img/icone-video-long.gif) no-repeat;
+	text-indent: 20px;
+	text-align: right;
+	position: absolute;
+	top: 70px;
+	margin-left: 2px;
+    padding-top: 2px;	
+	width: 50px;
+    padding-right: 2px;
+	z-index: 2;
+	font-size: 10px;
+}
+
+/* overlay style */
+.overlay {
+	/* background-color: #FFF; 
+	 border: 1px solid #999; */
+	background:url(img/white.png) no-repeat;
+	padding: 40px;	
+	width:576px;  
+	display:none;
+	z-index: 45;
+}
+
+ .overlay-title {
+	padding-bottom:10px;
+}
+ 
+.close {
+	background:url(img/close.png) no-repeat; 
+	position:absolute;
+	top:2px;
+	display:block;
+	right:5px; 
+	width:35px;
+	height:35px;
+	cursor:pointer;
+}
